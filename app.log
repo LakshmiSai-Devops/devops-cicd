@@ -1,0 +1,35 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-17T05:02:46.205Z  INFO 34221 --- [springboot-app] [           main] c.d.s.SpringbootAppApplication           : Starting SpringbootAppApplication v0.0.1-SNAPSHOT using Java 21.0.11 with PID 34221 (/root/SpringBootProject/devops-cicd/target/springboot-app-0.0.1-SNAPSHOT.jar started by root in /root/SpringBootProject/devops-cicd)
+2026-07-17T05:02:46.208Z  INFO 34221 --- [springboot-app] [           main] c.d.s.SpringbootAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-07-17T05:02:47.610Z  INFO 34221 --- [springboot-app] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-17T05:02:47.628Z  INFO 34221 --- [springboot-app] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-17T05:02:47.629Z  INFO 34221 --- [springboot-app] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-17T05:02:47.661Z  INFO 34221 --- [springboot-app] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1367 ms
+2026-07-17T05:02:48.346Z  INFO 34221 --- [springboot-app] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-17T05:02:48.424Z  WARN 34221 --- [springboot-app] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-17T05:02:48.442Z  INFO 34221 --- [springboot-app] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-17T05:02:48.454Z ERROR 34221 --- [springboot-app] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

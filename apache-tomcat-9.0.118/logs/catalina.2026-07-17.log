@@ -1,0 +1,71 @@
+17-Jul-2026 12:50:58.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.118
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 1 2026 19:30:30 UTC
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.118.0
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.18.36-69.138.amzn2023.x86_64
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-amazon-corretto.x86_64
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.11+10-LTS
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118
+17-Jul-2026 12:50:58.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118
+17-Jul-2026 12:50:58.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jul-2026 12:50:58.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+17-Jul-2026 12:50:58.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-Jul-2026 12:50:58.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jul-2026 12:50:58.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jul-2026 12:50:58.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jul-2026 12:50:58.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jul-2026 12:50:58.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/conf/logging.properties
+17-Jul-2026 12:50:58.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jul-2026 12:50:58.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jul-2026 12:50:58.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jul-2026 12:50:58.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+17-Jul-2026 12:50:58.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jul-2026 12:50:58.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jul-2026 12:50:58.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118
+17-Jul-2026 12:50:58.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118
+17-Jul-2026 12:50:58.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/temp
+17-Jul-2026 12:50:58.802 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Jul-2026 12:50:59.226 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jul-2026 12:50:59.238 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:984)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:687)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:710)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:577)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:251)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1500)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1513)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:966)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+17-Jul-2026 12:50:59.239 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [641] milliseconds
+17-Jul-2026 12:50:59.282 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jul-2026 12:50:59.283 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.118]
+17-Jul-2026 12:50:59.291 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/ROOT]
+17-Jul-2026 12:50:59.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/ROOT] has finished in [302] ms
+17-Jul-2026 12:50:59.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/docs]
+17-Jul-2026 12:50:59.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/docs] has finished in [23] ms
+17-Jul-2026 12:50:59.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/examples]
+17-Jul-2026 12:50:59.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/examples] has finished in [228] ms
+17-Jul-2026 12:50:59.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/host-manager]
+17-Jul-2026 12:50:59.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/host-manager] has finished in [26] ms
+17-Jul-2026 12:50:59.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/manager]
+17-Jul-2026 12:50:59.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/SpringBootProject/devops-cicd/apache-tomcat-9.0.118/webapps/manager] has finished in [15] ms
+17-Jul-2026 12:50:59.892 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [650] milliseconds
