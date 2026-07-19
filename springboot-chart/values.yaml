@@ -1,0 +1,14 @@
+replicaCount: 5
+
+image:
+  repository: lakshmisai9699/springboot-app
+  pullPolicy: Always
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 8081
+  targetPort: 8081
+
+autoscaling:
+  enabled: false
